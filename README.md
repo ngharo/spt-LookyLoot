@@ -3,6 +3,8 @@
 Client-side mod for **SPT 4.1.6** (BepInEx 5 / HarmonyX). Free-look around the in-raid
 inventory or container/corpse loot screen.
 
+![LookyLoot](demo.gif)
+
 ## Build / install
 
 The repo's `.mise.toml` activates a .NET SDK. References come from your local SPT install;
