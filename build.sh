@@ -14,9 +14,9 @@ fi
 
 rm -f "$ZIPFILE"
 mise exec -- dotnet build -c Release
-mkdir -p dist/BepInEx/plugin/LookyLoot
+mkdir -p dist/BepInEx/plugins/LookyLoot
 
-cp -v "$PLUGIN" dist/BepInEx/plugin/LookyLoot/
+cp -v "$PLUGIN" dist/BepInEx/plugins/LookyLoot/
 (cd dist && zip -r "../${ZIPFILE}" BepInEx)
 
 rm -rf dist
